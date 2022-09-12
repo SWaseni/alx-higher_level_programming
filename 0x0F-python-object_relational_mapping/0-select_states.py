@@ -3,12 +3,12 @@
 Prints all rows in the states table of a database.
 '''
 import sys
-import MySQLdb as sql
+import MySQLdb
 
 
 if __name__ == '__main__':
     if len(sys.argv) >= 4:
-        db_connection = sql.connect(
+        db_connection = MySQLdb.connect(
             host='localhost',
             port=3306,
             user=sys.argv[1],
