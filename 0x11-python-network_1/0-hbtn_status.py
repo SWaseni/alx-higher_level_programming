@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Fetch url"""
-import urlllib.request as request
+import urllib.request as request
 
 
 if __name__ == "__main__":
